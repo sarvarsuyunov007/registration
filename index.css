@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+form{
+    width: 300px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: url(./img/2018-33_opinion_suzuki1-1-1df032bf45497113.jpg);
+    border-radius: 15px;
+    color: #fff;
+}
+
+body{
+    background: url(./img/73aa792bdfbeda24587f518224d33da9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+     
+    
+}
+
+input{
+    padding: 10px 30px;
+    border-radius: 10px 0 10px 0;
+    outline: none;
+    order: 2px solid white ;
+    transition: 1s;
+}
+
+input:focus{
+    border-radius: 0px 15px 0px 15px;
+    transition: 2s;
+}
